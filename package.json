@@ -1,0 +1,39 @@
+{
+  "name": "bc5group",
+  "version": "1.0.0",
+  "description": "HealthGuard: Advanced blockchain solution for secure and private health data. Usecase: In healthcare, blockchain offers numerous advantages. A configured Blockchain allows selected users to access stored data, while at the same time the data is simultaneously stored on a distributed network. This allows for the secure storage of sensitive information. In particular, personal records such as patient records, medical findings and disease histories can be stored in a blockchain. Access to this data is restricted to users previously authorized by the authorized by the owner of the data.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.12",
+    "http": "0.0.1-security",
+    "next": "^13.4.7",
+    "next-routes": "^1.4.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "semantic-ui-react": "^2.1.4",
+    "truffle": "^5.10.2",
+    "truffle-artifactor": "^4.0.30",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "truffle-privatekey-provider": "^1.5.0",
+    "truffle-wallet-provider": "0.0.5",
+    "web3": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidroehr/bc5group.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidroehr/bc5group/issues"
+  },
+  "homepage": "https://github.com/davidroehr/bc5group#readme"
+}

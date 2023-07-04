@@ -1,8 +1,8 @@
 import web3 from './web3';
-import HealthGuard from '../build/contracts/HealthGuard.json';
+import Constitution from '../build/contracts/ConstitutionCreator.json';
 
-const healthGuardAddress = '0x7600AB02c697412c6d947B5756e358869Ad25815';
+const ConstitutionAddress = '0x645361dED0Edc673113c4aA98dEDC1e02675ba16';
 
-const instance = new web3.eth.Contract(HealthGuard.abi, healthGuardAddress);
+const instance = new web3.eth.Contract(Constitution.abi, ConstitutionAddress);
 
 export default instance;

@@ -16,17 +16,24 @@ const YourConstitution = () => {
     const dummyHealthGuards = [
       {
         patientName: 'John Doe',
-        medicalCondition: 'Lorem ipsum dolor sit amet',
-        treatment: 'Consectetur adipiscing elit',
+        medicalCondition: 'Hypertension',
+        treatment: 'Prescription medication, diet and lifestyle changes',
         doctorName: 'Dr. Jane Smith'
       },
       {
         patientName: 'Marie Josefine',
-        medicalCondition: 'Sed do eiusmod tempor incididunt',
-        treatment: 'Ut labore et dolore magna aliqua',
+        medicalCondition: 'Type 2 Diabetes',
+        treatment: 'Insulin therapy, blood sugar monitoring',
+        doctorName: 'Dr. John Johnson'
+      },
+      {
+        patientName: 'Daniel K.',
+        medicalCondition: 'Asthma',
+        treatment: 'Inhaler medication, avoidance of triggers',
         doctorName: 'Dr. John Johnson'
       }
     ];
+    
 
     setHealthGuards(dummyHealthGuards);
   };
@@ -90,10 +97,6 @@ const YourConstitution = () => {
 };
 
 export default YourConstitution;
-
-
-
-
 // import React, { useState, useEffect } from 'react';
 // import { Container, Card, Button } from 'semantic-ui-react';
 // import { Link } from '../routes';

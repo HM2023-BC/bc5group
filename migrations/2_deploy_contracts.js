@@ -1,5 +1,5 @@
-const ConstitutionCreator = artifacts.require("./Constitution.sol");
+const HealthGuard = artifacts.require("./Constitution.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(ConstitutionCreator);
+  deployer.deploy(HealthGuard);
 };

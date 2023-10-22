@@ -7,7 +7,7 @@ const chainId = 1271;
 module.exports = {
     compilers: {
         solc: {
-            version: "0.5.8",
+            version: "0.5.16",
             settings: {
                 optimizer: {
                     enabled: true,

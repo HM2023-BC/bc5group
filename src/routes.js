@@ -4,7 +4,8 @@ routes.add('/', '/index');
 routes.add('/login', '/login');
 routes.add('/signUp', '/signUp');
 routes.add('/yourConstitution', '/yourConstitution');
-// routes.add('/constitutions/new', '/newConstitution');
-// routes.add('/constitutions/:address', '/constitutions/show'); // Routeneintrag für die Anzeige einer einzelnen Konstitution
+routes.add('/yourConstitution_Demo', '/yourConstitution_Demo');
+routes.add('/constitutions/new', '/constitutions/new');
+routes.add('/constitutions/:address', '/constitutions/show');
 
 module.exports = routes;

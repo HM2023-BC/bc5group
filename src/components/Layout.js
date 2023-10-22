@@ -21,9 +21,6 @@ const Layout = (props) => {
           color: #fff;
           padding: 50px;
           text-align: center;
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
         }
 
         .header h1 {
@@ -127,12 +124,18 @@ const Layout = (props) => {
           margin: 0;
         }
 
-        .footer a {
+        .footer {
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background-color: #1c7ad9;
           color: #fff;
-          text-decoration: none;
-          font-weight: bold;
-          transition: color 0.3s;
+          padding: 20px;
+          text-align: center;
+          font-size: 14px;
         }
+        
 
         .footer a:hover {
           color: #ccc;
@@ -160,13 +163,13 @@ const Layout = (props) => {
           <h1>HealthGuard</h1>
           <p>Fortschrittliche Blockchain-Lösung für sichere und private Gesundheitsdaten</p>
         </div>
-        <Menu className="header-menu">
+        <Menu className="header-menu" secondary>
           <Link route="/login">
             <Menu.Item className="header-menu-item">Login</Menu.Item>
           </Link>
-          <Link route="/signUp">
+          {/* <Link route="/signUp">
             <Menu.Item className="header-menu-item">Sign Up</Menu.Item>
-          </Link>
+          </Link> */}
         </Menu>
       </div>
 
